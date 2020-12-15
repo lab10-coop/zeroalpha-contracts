@@ -6,8 +6,8 @@
     "node": "npx buidler node",
     "init_contracts": "npx oz init",
     "add_contracts": "npx oz add ERC721 && npx oz add ArtSteward",
-    "deploy_contracts": "npx oz deploy",
-    "test_contracts": "npx buidler test",
+    "deploy": "npx oz deploy",
+    "test": "npx buidler test",
     "compile": "npx buidler compile",
     "flatten": "mkdir -p flats && scripts/make-flats.sh"
   },

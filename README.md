@@ -15,15 +15,14 @@ Changes:
 Initialize:
 ```
 yarn install
-yarn run add_contracts
 ```
 
 Test:
 * console 1: `yarn run node`
-* console 2: `yarn run test_contracts`
+* console 2: `yarn run test`
 
 Deploy:
-* `MNEMONIC="..." yarn run deploy_contracts` or `PRIVKEY="..." yarn run deploy_contracts` (if deploying to a network using infura RPC, also set the env var `INFURA_ID`)
+* `MNEMONIC="..." yarn run deploy` or `PRIVKEY="..." yarn run deploy` (if deploying to a network using infura RPC, also set the env var `INFURA_ID`)
 * provide the information requested by the interactive process 
 
 ### TODO
