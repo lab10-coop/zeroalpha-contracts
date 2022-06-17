@@ -31,7 +31,7 @@ module.exports = {
     },
     xdaichain: {
       provider: () => new HDWalletProvider(
-          mnemonicOrPrivkey, 'https://rpc.xdaichain.com/', 0
+          mnemonicOrPrivkey, 'https://rpc.gnosischain.com/', 0
       ),
       networkId: 100,
       gasPrice: 1000000000,
